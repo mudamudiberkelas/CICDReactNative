@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* InflationCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InflationCalcTests.m */; };
+		00E356F31AD99517003FC87E /* CICDReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CICDReactNativeTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,12 +15,12 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* InflationCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InflationCalcTests.m */; };
-		3CD86539BA162A89763A09E7 /* libPods-InflationCalc-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9156697D1219F65CCA4E164 /* libPods-InflationCalc-tvOSTests.a */; };
-		5E2665FD7058F5F98363B272 /* libPods-InflationCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2567438DCB9A540EDF9831F1 /* libPods-InflationCalc.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* CICDReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CICDReactNativeTests.m */; };
+		3CD86539BA162A89763A09E7 /* libPods-CICDReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9156697D1219F65CCA4E164 /* libPods-CICDReactNative-tvOSTests.a */; };
+		5E2665FD7058F5F98363B272 /* libPods-CICDReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2567438DCB9A540EDF9831F1 /* libPods-CICDReactNative.a */; };
 		6D93F8B5231FD54E00236FE6 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D93F8B4231FD54E00236FE6 /* AppCenter-Config.plist */; };
-		7F4F31114FB37F16FB772B9A /* libPods-InflationCalc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F176BECFF442A21CA4F550D /* libPods-InflationCalc-tvOS.a */; };
-		DDD2F997A6683B02FB96B515 /* libPods-InflationCalcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D38BB09283C643D16920AD /* libPods-InflationCalcTests.a */; };
+		7F4F31114FB37F16FB772B9A /* libPods-CICDReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F176BECFF442A21CA4F550D /* libPods-CICDReactNative-tvOS.a */; };
+		DDD2F997A6683B02FB96B515 /* libPods-CICDReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D38BB09283C643D16920AD /* libPods-CICDReactNativeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,44 +29,44 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = InflationCalc;
+			remoteInfo = CICDReactNative;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "InflationCalc-tvOS";
+			remoteInfo = "CICDReactNative-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* InflationCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InflationCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CICDReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* InflationCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InflationCalcTests.m; sourceTree = "<group>"; };
-		0C44BB0E1FC50520D634DCAF /* Pods-InflationCalc-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalc-tvOSTests/Pods-InflationCalc-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* InflationCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InflationCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = InflationCalc/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = InflationCalc/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CICDReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CICDReactNativeTests.m; sourceTree = "<group>"; };
+		0C44BB0E1FC50520D634DCAF /* Pods-CICDReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDReactNative-tvOSTests/Pods-CICDReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CICDReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CICDReactNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CICDReactNative/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = InflationCalc/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = InflationCalc/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = InflationCalc/main.m; sourceTree = "<group>"; };
-		2567438DCB9A540EDF9831F1 /* libPods-InflationCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* InflationCalc-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InflationCalc-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* InflationCalc-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InflationCalc-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		331DFDF5BF011BE17CF75074 /* Pods-InflationCalc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-InflationCalc-tvOSTests/Pods-InflationCalc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		3F176BECFF442A21CA4F550D /* libPods-InflationCalc-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45D38BB09283C643D16920AD /* libPods-InflationCalcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		626788C389D42EADFC0619F8 /* Pods-InflationCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc.release.xcconfig"; path = "Target Support Files/Pods-InflationCalc/Pods-InflationCalc.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CICDReactNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CICDReactNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CICDReactNative/main.m; sourceTree = "<group>"; };
+		2567438DCB9A540EDF9831F1 /* libPods-CICDReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* CICDReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CICDReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* CICDReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CICDReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331DFDF5BF011BE17CF75074 /* Pods-CICDReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CICDReactNative-tvOSTests/Pods-CICDReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F176BECFF442A21CA4F550D /* libPods-CICDReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D38BB09283C643D16920AD /* libPods-CICDReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626788C389D42EADFC0619F8 /* Pods-CICDReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative.release.xcconfig"; path = "Target Support Files/Pods-CICDReactNative/Pods-CICDReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		6D93F8B4231FD54E00236FE6 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
-		A553DE1C7224E6CC4040F45C /* Pods-InflationCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalcTests.release.xcconfig"; path = "Target Support Files/Pods-InflationCalcTests/Pods-InflationCalcTests.release.xcconfig"; sourceTree = "<group>"; };
-		A9772DD3FF6E268C51996EA3 /* Pods-InflationCalc-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-tvOS.release.xcconfig"; path = "Target Support Files/Pods-InflationCalc-tvOS/Pods-InflationCalc-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B79F8214CABFDDF8FB7C8FB0 /* Pods-InflationCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalcTests/Pods-InflationCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC6625257866AFAE3EFE9D13 /* Pods-InflationCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalc/Pods-InflationCalc.debug.xcconfig"; sourceTree = "<group>"; };
-		DDC4C25D57192125D884D065 /* Pods-InflationCalc-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalc-tvOS/Pods-InflationCalc-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E9156697D1219F65CCA4E164 /* libPods-InflationCalc-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A553DE1C7224E6CC4040F45C /* Pods-CICDReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-CICDReactNativeTests/Pods-CICDReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9772DD3FF6E268C51996EA3 /* Pods-CICDReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CICDReactNative-tvOS/Pods-CICDReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B79F8214CABFDDF8FB7C8FB0 /* Pods-CICDReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDReactNativeTests/Pods-CICDReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6625257866AFAE3EFE9D13 /* Pods-CICDReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative.debug.xcconfig"; path = "Target Support Files/Pods-CICDReactNative/Pods-CICDReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC4C25D57192125D884D065 /* Pods-CICDReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CICDReactNative-tvOS/Pods-CICDReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E9156697D1219F65CCA4E164 /* libPods-CICDReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD2F997A6683B02FB96B515 /* libPods-InflationCalcTests.a in Frameworks */,
+				DDD2F997A6683B02FB96B515 /* libPods-CICDReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2665FD7058F5F98363B272 /* libPods-InflationCalc.a in Frameworks */,
+				5E2665FD7058F5F98363B272 /* libPods-CICDReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4F31114FB37F16FB772B9A /* libPods-InflationCalc-tvOS.a in Frameworks */,
+				7F4F31114FB37F16FB772B9A /* libPods-CICDReactNative-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +100,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CD86539BA162A89763A09E7 /* libPods-InflationCalc-tvOSTests.a in Frameworks */,
+				3CD86539BA162A89763A09E7 /* libPods-CICDReactNative-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* InflationCalcTests */ = {
+		00E356EF1AD99517003FC87E /* CICDReactNativeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* InflationCalcTests.m */,
+				00E356F21AD99517003FC87E /* CICDReactNativeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = InflationCalcTests;
+			path = CICDReactNativeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -124,7 +124,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* InflationCalc */ = {
+		13B07FAE1A68108700A75B9A /* CICDReactNative */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -135,7 +135,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = InflationCalc;
+			name = CICDReactNative;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -143,10 +143,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				2567438DCB9A540EDF9831F1 /* libPods-InflationCalc.a */,
-				3F176BECFF442A21CA4F550D /* libPods-InflationCalc-tvOS.a */,
-				E9156697D1219F65CCA4E164 /* libPods-InflationCalc-tvOSTests.a */,
-				45D38BB09283C643D16920AD /* libPods-InflationCalcTests.a */,
+				2567438DCB9A540EDF9831F1 /* libPods-CICDReactNative.a */,
+				3F176BECFF442A21CA4F550D /* libPods-CICDReactNative-tvOS.a */,
+				E9156697D1219F65CCA4E164 /* libPods-CICDReactNative-tvOSTests.a */,
+				45D38BB09283C643D16920AD /* libPods-CICDReactNativeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				6D93F8B4231FD54E00236FE6 /* AppCenter-Config.plist */,
-				13B07FAE1A68108700A75B9A /* InflationCalc */,
+				13B07FAE1A68108700A75B9A /* CICDReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* InflationCalcTests */,
+				00E356EF1AD99517003FC87E /* CICDReactNativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E8741F12E5334E27612DEA3D /* Pods */,
@@ -177,10 +177,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* InflationCalc.app */,
-				00E356EE1AD99517003FC87E /* InflationCalcTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* InflationCalc-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* InflationCalc-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CICDReactNative.app */,
+				00E356EE1AD99517003FC87E /* CICDReactNativeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* CICDReactNative-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* CICDReactNative-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,14 +188,14 @@
 		E8741F12E5334E27612DEA3D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC6625257866AFAE3EFE9D13 /* Pods-InflationCalc.debug.xcconfig */,
-				626788C389D42EADFC0619F8 /* Pods-InflationCalc.release.xcconfig */,
-				DDC4C25D57192125D884D065 /* Pods-InflationCalc-tvOS.debug.xcconfig */,
-				A9772DD3FF6E268C51996EA3 /* Pods-InflationCalc-tvOS.release.xcconfig */,
-				0C44BB0E1FC50520D634DCAF /* Pods-InflationCalc-tvOSTests.debug.xcconfig */,
-				331DFDF5BF011BE17CF75074 /* Pods-InflationCalc-tvOSTests.release.xcconfig */,
-				B79F8214CABFDDF8FB7C8FB0 /* Pods-InflationCalcTests.debug.xcconfig */,
-				A553DE1C7224E6CC4040F45C /* Pods-InflationCalcTests.release.xcconfig */,
+				DC6625257866AFAE3EFE9D13 /* Pods-CICDReactNative.debug.xcconfig */,
+				626788C389D42EADFC0619F8 /* Pods-CICDReactNative.release.xcconfig */,
+				DDC4C25D57192125D884D065 /* Pods-CICDReactNative-tvOS.debug.xcconfig */,
+				A9772DD3FF6E268C51996EA3 /* Pods-CICDReactNative-tvOS.release.xcconfig */,
+				0C44BB0E1FC50520D634DCAF /* Pods-CICDReactNative-tvOSTests.debug.xcconfig */,
+				331DFDF5BF011BE17CF75074 /* Pods-CICDReactNative-tvOSTests.release.xcconfig */,
+				B79F8214CABFDDF8FB7C8FB0 /* Pods-CICDReactNativeTests.debug.xcconfig */,
+				A553DE1C7224E6CC4040F45C /* Pods-CICDReactNativeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* InflationCalcTests */ = {
+		00E356ED1AD99517003FC87E /* CICDReactNativeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InflationCalcTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CICDReactNativeTests" */;
 			buildPhases = (
 				20A3CB5AC7B36E50DD2D26DD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -217,14 +217,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = InflationCalcTests;
-			productName = InflationCalcTests;
-			productReference = 00E356EE1AD99517003FC87E /* InflationCalcTests.xctest */;
+			name = CICDReactNativeTests;
+			productName = CICDReactNativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* CICDReactNativeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* InflationCalc */ = {
+		13B07F861A680F5B00A75B9A /* CICDReactNative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "InflationCalc" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CICDReactNative" */;
 			buildPhases = (
 				37EB831860B82847F37E2C9B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = InflationCalc;
-			productName = InflationCalc;
-			productReference = 13B07F961A680F5B00A75B9A /* InflationCalc.app */;
+			name = CICDReactNative;
+			productName = CICDReactNative;
+			productReference = 13B07F961A680F5B00A75B9A /* CICDReactNative.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* InflationCalc-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* CICDReactNative-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InflationCalc-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CICDReactNative-tvOS" */;
 			buildPhases = (
 				EB36703A683A8AC4F2417843 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "InflationCalc-tvOS";
-			productName = "InflationCalc-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* InflationCalc-tvOS.app */;
+			name = "CICDReactNative-tvOS";
+			productName = "CICDReactNative-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* CICDReactNative-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* InflationCalc-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* CICDReactNative-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InflationCalc-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CICDReactNative-tvOSTests" */;
 			buildPhases = (
 				2821B7E62F2B55F58C96E3B7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "InflationCalc-tvOSTests";
-			productName = "InflationCalc-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* InflationCalc-tvOSTests.xctest */;
+			name = "CICDReactNative-tvOSTests";
+			productName = "CICDReactNative-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* CICDReactNative-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "InflationCalc" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CICDReactNative" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -319,10 +319,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* InflationCalc */,
-				00E356ED1AD99517003FC87E /* InflationCalcTests */,
-				2D02E47A1E0B4A5D006451C7 /* InflationCalc-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* InflationCalc-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* CICDReactNative */,
+				00E356ED1AD99517003FC87E /* CICDReactNativeTests */,
+				2D02E47A1E0B4A5D006451C7 /* CICDReactNative-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* CICDReactNative-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InflationCalcTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CICDReactNativeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -414,7 +414,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InflationCalc-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CICDReactNative-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,7 +450,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InflationCalc-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CICDReactNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -472,7 +472,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InflationCalc-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CICDReactNative-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -524,7 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* InflationCalcTests.m in Sources */,
+				00E356F31AD99517003FC87E /* CICDReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* InflationCalcTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* CICDReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,12 +559,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* InflationCalc */;
+			target = 13B07F861A680F5B00A75B9A /* CICDReactNative */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* InflationCalc-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* CICDReactNative-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -576,7 +576,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = InflationCalc;
+			path = CICDReactNative;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -584,14 +584,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B79F8214CABFDDF8FB7C8FB0 /* Pods-InflationCalcTests.debug.xcconfig */;
+			baseConfigurationReference = B79F8214CABFDDF8FB7C8FB0 /* Pods-CICDReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = InflationCalcTests/Info.plist;
+				INFOPLIST_FILE = CICDReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -601,17 +601,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InflationCalc.app/InflationCalc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDReactNative.app/CICDReactNative";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A553DE1C7224E6CC4040F45C /* Pods-InflationCalcTests.release.xcconfig */;
+			baseConfigurationReference = A553DE1C7224E6CC4040F45C /* Pods-CICDReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = InflationCalcTests/Info.plist;
+				INFOPLIST_FILE = CICDReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -621,18 +621,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InflationCalc.app/InflationCalc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDReactNative.app/CICDReactNative";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC6625257866AFAE3EFE9D13 /* Pods-InflationCalc.debug.xcconfig */;
+			baseConfigurationReference = DC6625257866AFAE3EFE9D13 /* Pods-CICDReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = InflationCalc/Info.plist;
+				INFOPLIST_FILE = CICDReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -640,18 +640,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = InflationCalc;
+				PRODUCT_NAME = CICDReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 626788C389D42EADFC0619F8 /* Pods-InflationCalc.release.xcconfig */;
+			baseConfigurationReference = 626788C389D42EADFC0619F8 /* Pods-CICDReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = InflationCalc/Info.plist;
+				INFOPLIST_FILE = CICDReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -659,14 +659,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = InflationCalc;
+				PRODUCT_NAME = CICDReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC4C25D57192125D884D065 /* Pods-InflationCalc-tvOS.debug.xcconfig */;
+			baseConfigurationReference = DDC4C25D57192125D884D065 /* Pods-CICDReactNative-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -677,14 +677,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "InflationCalc-tvOS/Info.plist";
+				INFOPLIST_FILE = "CICDReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.InflationCalc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CICDReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -694,7 +694,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9772DD3FF6E268C51996EA3 /* Pods-InflationCalc-tvOS.release.xcconfig */;
+			baseConfigurationReference = A9772DD3FF6E268C51996EA3 /* Pods-CICDReactNative-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -705,14 +705,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "InflationCalc-tvOS/Info.plist";
+				INFOPLIST_FILE = "CICDReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.InflationCalc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CICDReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -722,7 +722,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C44BB0E1FC50520D634DCAF /* Pods-InflationCalc-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 0C44BB0E1FC50520D634DCAF /* Pods-CICDReactNative-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -732,24 +732,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "InflationCalc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CICDReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.InflationCalc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CICDReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InflationCalc-tvOS.app/InflationCalc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDReactNative-tvOS.app/CICDReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331DFDF5BF011BE17CF75074 /* Pods-InflationCalc-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 331DFDF5BF011BE17CF75074 /* Pods-CICDReactNative-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -759,17 +759,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "InflationCalc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CICDReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.InflationCalc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CICDReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InflationCalc-tvOS.app/InflationCalc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDReactNative-tvOS.app/CICDReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -876,7 +876,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InflationCalcTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CICDReactNativeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -885,7 +885,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "InflationCalc" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CICDReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -894,7 +894,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InflationCalc-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CICDReactNative-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -903,7 +903,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "InflationCalc-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CICDReactNative-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -912,7 +912,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "InflationCalc" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CICDReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

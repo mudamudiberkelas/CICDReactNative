@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'InflationCalc' do
-  # Pods for InflationCalc
+target 'CICDReactNative' do
+  # Pods for CICDReactNative
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,7 +27,7 @@ target 'InflationCalc' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'InflationCalcTests' do
+  target 'CICDReactNativeTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -35,10 +35,10 @@ target 'InflationCalc' do
   use_native_modules!
 end
 
-target 'InflationCalc-tvOS' do
-  # Pods for InflationCalc-tvOS
+target 'CICDReactNative-tvOS' do
+  # Pods for CICDReactNative-tvOS
 
-  target 'InflationCalc-tvOSTests' do
+  target 'CICDReactNative-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

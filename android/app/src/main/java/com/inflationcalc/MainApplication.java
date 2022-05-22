@@ -1,4 +1,4 @@
-package com.inflationcalc;
+package com.CICDReactNative;
 
 import android.app.Application;
 import android.util.Log;
